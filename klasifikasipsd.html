@@ -8145,13 +8145,10 @@ F1 Score: 0.51
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-
-<span class="c1"># Hasil evaluasi model untuk masing-masing dataset dan algoritma</span>
-<span class="n">accuracy_knn_decision_tree</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">accuracy_1</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">accuracy_knn_decision_tree</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">accuracy_1</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
 <span class="n">precision_knn_decision_tree</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">precision_1</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
 <span class="n">recall_knn_decision_tree</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">recall_1</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
 <span class="n">f1_knn_decision_tree</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">f1_1</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
@@ -8171,7 +8168,6 @@ F1 Score: 0.51
 <span class="n">recall_rata_naive_bayes</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">recall_4</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
 <span class="n">f1_rata_naive_bayes</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">f1_4</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
 
-<span class="c1"># Data hasil evaluasi untuk masing-masing model</span>
 <span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s1">'Model'</span><span class="p">:</span> <span class="p">[</span>
         <span class="s1">'Decision Tree dengan Imputasi KNN'</span><span class="p">,</span>
@@ -8205,7 +8201,6 @@ F1 Score: 0.51
     <span class="p">]</span>
 <span class="p">}</span>
 
-<span class="c1"># Membuat DataFrame</span>
 <span class="n">perbandingan</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
 <span class="n">perbandingan</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
@@ -8218,7 +8213,7 @@ F1 Score: 0.51
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
